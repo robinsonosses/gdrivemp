@@ -40,11 +40,6 @@ git clone https://github.com/robinsonosses/gdrivemp.git
 
 </div>
 
-
-## 🧐 About <a name = "about"></a>
-
-The FastAPI Cloud Google Drive module supports Google Drive. You can easily search & upload files. 
-
 ### Step 1
 Go to link https://developers.google.com/drive/api/v3/quickstart/python
 Enable Drive Api.
