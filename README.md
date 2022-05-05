@@ -29,7 +29,7 @@ python -m pip install --upgrade pip
 
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
-pip install git+https://github.com/robinsonosses/gdrive
+pip install git+https://github.com/robinsonosses/gdrivemp
 
 git clone https://github.com/robinsonosses/gdrive.git
 ```
