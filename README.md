@@ -31,7 +31,7 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 
 pip install git+https://github.com/robinsonosses/gdrivemp
 
-git clone https://github.com/robinsonosses/gdrive.git
+git clone https://github.com/robinsonosses/gdrivemp.git
 ```
 <h3 align="center">FastAPI Google Drive</h3>
 
@@ -108,11 +108,7 @@ async def search(word: str):
 
 @app.post("/file")
 async def upload_file(filename: str, filepath: str, desc_name: str):
-    resp = await gdrive.upload_file(    
-        filename = '{filename}',
-        filepath = "files/photo.jpg",
-        desc_name= "vamos que se puede"
-    )
+    resp = await gdrive.upload_file()
     return JSONResponse(status_code=200, content=resp)
 ```
 
