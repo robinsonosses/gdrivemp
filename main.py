@@ -1,6 +1,6 @@
 from logging import debug
-from gdrive import GoogleDrive
-from gdrive import GoogleDriveConfig
+from fastapi_cloud_drives import GoogleDrive
+from fastapi_cloud_drives import GoogleDriveConfig
 
 
 from fastapi import FastAPI
