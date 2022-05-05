@@ -22,13 +22,12 @@ This proyect is forked version of https://github.com/MadeByMads/fastapi-cloud-dr
 with  pip
 ```bash
 python3 -m venv .venv
-
 source .venv/bin/activate
+
 pip install --upgrade setuptools
 python -m pip install --upgrade pip
 
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-
 pip install git+https://github.com/robinsonosses/gdrivemp
 
 git clone https://github.com/robinsonosses/gdrivemp.git
